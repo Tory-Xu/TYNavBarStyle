@@ -1,0 +1,41 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LookinServer (1.0.0)
+  - Masonry (1.1.0)
+  - RSSwizzle (0.1.0)
+  - TYNavBarStyle (0.1.2):
+    - RSSwizzle (~> 0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LookinServer
+  - Masonry
+  - RSSwizzle (~> 0.1.0)
+  - TYNavBarStyle (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+  trunk:
+    - LookinServer
+    - Masonry
+    - RSSwizzle
+
+EXTERNAL SOURCES:
+  TYNavBarStyle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RSSwizzle: d561958f595028bfcef98c7d55c318b3878a61c6
+  TYNavBarStyle: b2611231a6fe8019f7007e7db8ce7d31e4b1523a
+
+PODFILE CHECKSUM: 3eac38fb2d3c0135253c8899cabb124e87156e6d
+
+COCOAPODS: 1.8.4

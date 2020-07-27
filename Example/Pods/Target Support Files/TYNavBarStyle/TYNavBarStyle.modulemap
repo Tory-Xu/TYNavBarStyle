@@ -1,0 +1,6 @@
+framework module TYNavBarStyle {
+  umbrella header "TYNavBarStyle-umbrella.h"
+
+  export *
+  module * { export * }
+}

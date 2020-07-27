@@ -1,0 +1,17 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TYNavBarStyle_Example' do
+  pod 'TYNavBarStyle', :path => '../'
+
+  pod 'LookinServer', :configurations => ['Debug']
+  pod 'RSSwizzle', '~> 0.1.0'
+  pod 'Masonry'
+  
+  target 'TYNavBarStyle_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
